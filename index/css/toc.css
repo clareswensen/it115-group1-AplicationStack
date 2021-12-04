@@ -1,0 +1,51 @@
+/* Sidebar Navigation */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#content {
+    width: 70vw;
+}
+
+#content div {
+    height: 100vh;
+}
+
+#table-of-content {
+    width: 30vw;
+}
+
+.offset-anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#table-of-content {
+    width: 30vw;
+    /* these two lines will do the trick */
+    position: sticky;
+    top: 0;
+}
+
+.offset-anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+#table-of-content {
+    width: 30vw;
+    /* these two lines will do the trick */
+    position: sticky;
+    top: 0;
+}
